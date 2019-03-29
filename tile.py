@@ -26,4 +26,3 @@ class Tile:
             self.prices[i] = economics.find_price(previous_supply, self.commodity_stocks[i], self.prices[i], data['resources'][i].base_demand, data['resources'][i].price_elasticity)
 
     def consume(self, data):
-        
