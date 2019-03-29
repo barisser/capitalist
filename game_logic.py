@@ -1,5 +1,6 @@
 import resources
 
+
 def migrate_peoples(data):
     return data
 
