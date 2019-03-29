@@ -22,4 +22,4 @@ def equilibrium_price(supply, base_demand, price_elasticity):
 def find_price(previous_supply, new_supply, previous_price, base_demand, price_elasticity):
 
 def how_much_to_consume(total_money, population, resources, all_stocks):
-    
+
