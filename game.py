@@ -3,13 +3,16 @@ import game_logic
 import settings
 import time
 
+
 def init():
     datas = data.init_data()
     return datas
 
+
 def cycle(data):
     data = game_logic.cycle(data)
     return data
+
 
 def go():
     data = init()
